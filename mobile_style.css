@@ -27,6 +27,7 @@
         width: 57.867vw;
         height: 3.83vw;
         margin-left: -0.048vw;
+        margin-bottom: 1vw;
     }
     
     .ToDoListName{
@@ -148,7 +149,7 @@
         border-radius: 6.164vw; 
         color: #fff;
         margin-left: -16.375vw;
-        margin-top: -0.3vw;
+        margin-top: -0.2vw;
         font-size: 1.18vw;
         transition: background-color 0.3s;
     }
@@ -162,18 +163,18 @@
         font-size: 1.889vw;
     }
     button .add{
-        width: 18.198vw;
+        width: 20.198vw;
         height: 5.646vw;
         font-family: 'Roboto';
         font-style: normal;
         font-weight: 400;
-        font-size: 2.415vw;
+        font-size: 2.715vw;
         line-height: 1.389vw;
         display: flex;
         align-items: center;
         text-align: center;  
         color: #FFFFFF; 
-        margin-top: -5.87788vw;
+        margin-top: -6.07788vw;
         padding-left: 9.611vw;
     }
     #listMain{

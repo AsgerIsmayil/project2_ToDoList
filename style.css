@@ -1,4 +1,4 @@
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 800px) and (max-width: 1500px) {
     @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
 
     * {
@@ -138,6 +138,7 @@
         width: 1.294vw;
         height: 1.294vw;
         margin-right: 0.695vw;
+        margin-top: .5vw;
         color: #c4c4c4;
         opacity: .8;
         cursor: pointer;
