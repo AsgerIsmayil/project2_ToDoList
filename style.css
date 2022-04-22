@@ -1,4 +1,4 @@
-@media screen and (min-width: 800px) and (max-width: 1500px) {
+@media screen and (min-width: 800px) {
     @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
 
     * {
@@ -124,7 +124,7 @@
     }
 
     input {
-        width: 16.493vw;
+        width: 16.693vw;
         font-size: 1.38vw;
         border: none;
         outline: none;

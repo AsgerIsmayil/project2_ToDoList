@@ -66,7 +66,7 @@ function addNewInput(e) {
 }
 
 function deleteItem() {
-
+  if(input.value != ""){
   const close = document.querySelectorAll('.close');
 
   close.forEach(item => {
@@ -81,6 +81,7 @@ function deleteItem() {
       }
     });
   });
+}
 
 
 }
