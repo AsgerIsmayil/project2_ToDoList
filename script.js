@@ -40,7 +40,6 @@ function addNewItem(e) {
     //first style
     form_main.style.display = 'none';
     toDoList.style.paddingBottom = " 0.536vw";
-    console.log(form_main.style.display);
 
     //delete item function
     deleteItem();
@@ -66,7 +65,6 @@ function addNewInput(e) {
 }
 
 function deleteItem() {
-  if(input.value != ""){
   const close = document.querySelectorAll('.close');
 
   close.forEach(item => {
@@ -81,8 +79,6 @@ function deleteItem() {
       }
     });
   });
-}
-
 
 }
 
@@ -107,6 +103,8 @@ function sortArrayFunc(){
 
     sortIcon1.style.display = 'none';
     sortIcon2.style.display = 'flex';
+    sortIcon2.style.opacity = '.2332vw';
+    sortIcon2.style.paddingTop = '.759vw';
     
 }
 
@@ -114,6 +112,8 @@ function sortArrayReverseFunc(){
 
   sortIcon2.style.display = 'none';
   sortIcon1.style.display = 'block';
+  sortIcon1.style.opacity = '.2332vw';
+  
   li = document.querySelectorAll('li');
     sortArray = [];
     li.forEach(item => {
