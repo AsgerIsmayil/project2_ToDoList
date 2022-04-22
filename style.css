@@ -135,9 +135,8 @@
     }
 
     .close {
-        width: 1.594vw;
-        height: 1.594vw;
-        margin-top: 0.488vw;
+        width: 1.294vw;
+        height: 1.294vw;
         margin-right: 0.695vw;
         color: #c4c4c4;
         opacity: .8;
@@ -152,7 +151,6 @@
         background-color: #833AE0;
     }
 
-    
 
     #listMain {
         display: flex;
