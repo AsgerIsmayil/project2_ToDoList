@@ -61,7 +61,7 @@ function addNewInput(e) {
   document.getElementById("inputMain").focus();
   
   //delete function
-  deleteItem();
+  // deleteItem();
 }
 
 function deleteItem() {
