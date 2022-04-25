@@ -7,7 +7,8 @@ let toDoList = document.querySelector('.toDoList')
 let btn = document.querySelector('.buttonMain');
 let sortIcon1 = document.querySelector('.sortIcon1');
 let sortIcon2 = document.querySelector('.sortIcon2');
-let iconContainer = document.querySelector('.iconContainer')
+let iconContainer = document.querySelector('.iconContainer');
+let list_item = document.querySelector('.list_item');
 let sortArray = [];
 
 eventListeners();
@@ -23,7 +24,7 @@ document.getElementById("inputMain").focus();
 
 function addNewItem(e) {
 
-  if (e.keyCode == 13 && form_main.style.display != 'none' && input.value !="") {
+  if (e.keyCode == 13 && form_main.style.display != 'none' && input.value !="" && input.value !=" ") {
 
     //create li
     let li = document.createElement('li');
@@ -69,9 +70,12 @@ function deleteItem() {
 
   close.forEach(item => {
     item.addEventListener('click', (e) => {
+      
       if (e.target.className.includes('close')){
         
         e.target.parentElement.remove();
+        form_main.appendChild(iconContainer);
+        input.value = "";
 
         if(listMain.childElementCount == 0){
           form_main.style.display = 'flex';
@@ -103,8 +107,6 @@ function sortArrayFunc(){
 
     sortIcon1.style.display = 'none';
     sortIcon2.style.display = 'flex';
-    sortIcon2.style.opacity = '.2332vw';
-    sortIcon2.style.paddingTop = '.759vw';
     
 }
 
@@ -112,7 +114,7 @@ function sortArrayReverseFunc(){
 
   sortIcon2.style.display = 'none';
   sortIcon1.style.display = 'block';
-  sortIcon1.style.opacity = '.2332vw';
+  sortIcon1.style.opacity = '233232';
   
   li = document.querySelectorAll('li');
     sortArray = [];
@@ -127,6 +129,7 @@ function sortArrayReverseFunc(){
     for(let i = 0; i < (li.length); i++){
         li[i].innerHTML = sortArray[i];
     }
+ 
 
   //delete item
   deleteItem();

@@ -1,5 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
 @media screen and (min-width: 320px) and (max-width: 800px) {
-    @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
     *{
         margin: 0;
         padding: 0;
@@ -15,18 +15,18 @@
     .ToDoListContainer{
         width: 58.167vw;
         text-align: center;
-        border: 0.286vw solid #c4c4c4;
-        border-radius: 1vw;
+        border: 0.256vw solid #c4c4c4;
+        border-radius: 1.4vw;
         display: flex;
         flex-direction: column;
     }
     .yellow{
         background-color: #FFDC40;
-        border-top-left-radius: 1vw;
-        border-top-right-radius: 1vw;
-        width: 57.867vw;
+        border-top-left-radius: 1.4vw;
+        border-top-right-radius: 1.4vw;
+        width: 57.967vw;
         height: 3.83vw;
-        margin-left: -0.048vw;
+        margin-left: -0.148vw;
         margin-bottom: 1vw;
     }
     
@@ -85,16 +85,15 @@
         overflow: auto;
         max-height: 20vw;
         margin: 1.736vw auto;
-        border: 0.287vw solid #c4c4c4;
-        border-radius: 1vw;
+        border: 0.257vw solid #c4c4c4;
+        border-radius: 1.4vw;
         padding-bottom:  0.536vw;
     }
     .toDoListText{
         display: flex;
         justify-content: space-evenly;
         align-items: center;
-        flex-direction: column;
-        
+        flex-direction: column;   
     }
     input{
         width: 35.1vw;
@@ -143,13 +142,13 @@
     }
     button .plus{
         display: inline-block;
-        width: 6.446vw;
-        height: 6.446vw;
+        width: 6.546vw;
+        height: 6.546vw;
         background: #9953F1;
         border-radius: 6.164vw; 
         color: #fff;
         margin-left: -16.375vw;
-        margin-top: -0.2vw;
+        margin-top: -0.3vw;
         font-size: 1.18vw;
         transition: background-color 0.3s;
     }
