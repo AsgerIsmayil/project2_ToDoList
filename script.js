@@ -46,12 +46,8 @@ function addNewItem(e) {
     deleteItem();
 
     //scroll
-    if(listMain.children.length>=3){
-      toDoListText.scrollTop=toDoListText.scrollHeight;
-    }
-
+      toDoList.scrollTop=toDoList.scrollHeight;
   }
-
 }
 
 function addNewInput(e) {
@@ -60,9 +56,8 @@ function addNewInput(e) {
 
   //focus method
   document.getElementById("inputMain").focus();
-  
-  //delete function
-  // deleteItem();
+
+  toDoListText.scrollTop = toDoListText.scrollHeight;
 }
 
 function deleteItem() {
@@ -111,7 +106,6 @@ function sortArrayFunc(){
 }
 
 function sortArrayReverseFunc(){
-
   sortIcon2.style.display = 'none';
   sortIcon1.style.display = 'block';
   sortIcon1.style.opacity = '233232';
@@ -130,7 +124,6 @@ function sortArrayReverseFunc(){
         li[i].innerHTML = sortArray[i];
     }
  
-
   //delete item
   deleteItem();
 }

@@ -13,7 +13,7 @@
         height: 100vh;
     }
     .ToDoListContainer{
-        width: 58.167vw;
+        width: 80.167vw;
         text-align: center;
         border: 0.256vw solid #c4c4c4;
         border-radius: 1.4vw;
@@ -24,14 +24,14 @@
         background-color: #FFDC40;
         border-top-left-radius: 1.4vw;
         border-top-right-radius: 1.4vw;
-        width: 57.967vw;
-        height: 3.83vw;
+        width: 80.067vw;
+        height: 5.83vw;
         margin-left: -0.148vw;
         margin-bottom: 1vw;
     }
     
     .ToDoListName{
-        width: 27.188vw;
+        width: 37.188vw;
         height: 2.951vw;
         margin-top: 4.529vw;
         margin-left: 50%;
@@ -49,7 +49,7 @@
     }
     .sortIcon1{
         opacity: .233232;
-        margin-left: 42.459vw;
+        margin-left: 61.459vw;
         margin-bottom: -1.867vw;
         padding-top: 1.459vw; 
         padding-bottom: 1.5vw;
@@ -66,7 +66,7 @@
     .sortIcon2{
         display: none;
         opacity: .233232;
-        margin-left: 42.959vw;
+        margin-left: 62.459vw;
         margin-top: 0.2vw;
         margin-bottom: -0.867vw;
         padding: 1.5vw 0 1.259vw; 
@@ -81,7 +81,7 @@
         opacity: 1;
     }
     .toDoList{
-        width: 50.827vw;
+        width: 68.827vw;
         overflow: auto;
         max-height: 20vw;
         margin: 1.736vw auto;
@@ -96,7 +96,7 @@
         flex-direction: column;   
     }
     input{
-        width: 35.1vw;
+        width: 51.1vw;
         font-size: 2.88vw;
         border: none;
         outline: none;
@@ -156,7 +156,6 @@
         background-color: #9042f0;
     }
     .plus p{
-        
         font-family: 'Roboto';
         margin-top: 2.381vw;
         font-size: 1.889vw;
@@ -179,7 +178,7 @@
     #listMain{
         display: flex;
         flex-direction: column;
-        width: 39.1vw;
+        width: 55.1vw;
     }
     
     .list_item{
